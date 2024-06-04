@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Font Awesome 5 Pro", sans-serif;
+  --third-family: "Font Awesome 5 Brands", sans-serif;
+}
+
+body {
+  min-width: 320px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: clamp(4px, 2vw, 15px);
+  font-weight: 400;
+  color: #22262a;
+  background-color: #fff;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1168px;
+}
